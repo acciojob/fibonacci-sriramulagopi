@@ -15,5 +15,5 @@ function fibonacci(num) {
 	}
 	return check>0 ? fib:0;
 }
-
-console.log(fibonacci(6));
+module.exports = fibonacci;
+console.log(module.exports(4));
